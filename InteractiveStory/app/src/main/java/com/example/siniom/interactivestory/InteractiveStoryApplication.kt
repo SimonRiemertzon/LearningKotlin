@@ -8,11 +8,11 @@ import android.app.Application
 import android.content.pm.ActivityInfo
 import android.os.Bundle
 
-class InteractiveStoryApplication : Application (){
+class InteractiveStoryApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        registerActivityLifecycleCallbacks(object: ActivityLifecycleCallbacks {
+        registerActivityLifecycleCallbacks(object : ActivityLifecycleCallbacks {
             override fun onActivityCreated(activity: Activity?, savedInstanceState: Bundle?) {
                 activity?.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
             }
