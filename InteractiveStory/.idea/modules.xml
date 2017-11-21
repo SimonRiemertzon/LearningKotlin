@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/InteractiveStory.iml" filepath="$PROJECT_DIR$/InteractiveStory.iml" />
-      <module fileurl="file://C:\Users\sirie1\Documents\Cybercom\Building Android Competense\LearningKotlin\InteractiveStory\InteractiveStory.iml" filepath="C:\Users\sirie1\Documents\Cybercom\Building Android Competense\LearningKotlin\InteractiveStory\InteractiveStory.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\sirie1\Documents\Cybercom\Building Android Competense\LearningKotlin\InteractiveStory\app\app.iml" filepath="C:\Users\sirie1\Documents\Cybercom\Building Android Competense\LearningKotlin\InteractiveStory\app\app.iml" />
     </modules>
   </component>
 </project>

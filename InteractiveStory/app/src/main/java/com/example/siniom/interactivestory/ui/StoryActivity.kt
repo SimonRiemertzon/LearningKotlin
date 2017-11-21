@@ -1,15 +1,16 @@
-package com.example.siniom.interactivestory
+package com.example.siniom.interactivestory.ui
 
 import android.content.Intent
-import android.nfc.Tag
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
+import com.example.siniom.interactivestory.R
+import com.example.siniom.interactivestory.model.Page
 
 class StoryActivity : AppCompatActivity() {
 
     val TAG: String = StoryActivity::class.java.simpleName
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

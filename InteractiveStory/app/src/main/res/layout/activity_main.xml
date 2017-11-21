@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.siniom.interactivestory.MainActivity">
+    tools:context="com.example.siniom.interactivestory.ui.MainActivity">
 
     <ImageView
         android:id="@+id/titleImageView"
@@ -22,7 +22,10 @@
         android:id="@+id/startButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@android:color/white"
         android:text="@string/startBtn_text"
+        android:textColor="#3A8AEC"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

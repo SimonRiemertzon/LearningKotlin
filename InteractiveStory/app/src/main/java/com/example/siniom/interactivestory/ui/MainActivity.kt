@@ -1,10 +1,9 @@
-package com.example.siniom.interactivestory
+package com.example.siniom.interactivestory.ui
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
-import android.widget.Toast
+import com.example.siniom.interactivestory.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
