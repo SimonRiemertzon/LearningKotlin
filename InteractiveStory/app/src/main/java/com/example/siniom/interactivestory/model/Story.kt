@@ -1,5 +1,7 @@
 package com.example.siniom.interactivestory.model
 
+import android.util.MutableInt
+import android.widget.Toast
 import com.example.siniom.interactivestory.R
 import com.example.siniom.interactivestory.R.drawable.page0
 
@@ -8,7 +10,7 @@ class Story {
 
    var  pages  = arrayOf(
            Page(
-                   page0,
+                   R.drawable.page0,
                    R.string.page0,
                    Choice(R.string.page0_choice1, 1),
                    Choice(R.string.page0_choice2, 2)),
@@ -43,5 +45,9 @@ class Story {
 
           */
    )
+
+   fun getPage(pageNumber: Int): Page = if(pageNumber >= pages.size) pages[pageNumber] else pages[0]
+
+
 
 }

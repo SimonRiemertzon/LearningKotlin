@@ -54,14 +54,12 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/storyImageView"
+                android:contentDescription="@string/story_image_content_description"
+                android:id="@+id/storyImageView_xml"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 tools:src="@drawable/page0" />
 
             <TextView
@@ -73,10 +71,6 @@
                 android:layout_marginTop="8dp"
                 android:lineSpacingExtra="8sp"
                 android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/storyImageView"
                 tools:text="@string/page0" />
         </LinearLayout>
     </ScrollView>
